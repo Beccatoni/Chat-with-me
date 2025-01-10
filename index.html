@@ -24,7 +24,8 @@
     let myname = document.getElementById("myname");
     let message = document.getElementById("message");
     let messageArea = document.getElementById("messageArea");
-
+    const socket = io();
+    
     form.addEventListener("submit", (e)=> {
         e.preventDefault();
 
